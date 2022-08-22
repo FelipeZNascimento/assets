@@ -20,4 +20,4 @@ jobs:
           username: ${{ secrets.username }}
           password: ${{ secrets.password }}
           local-dir: ./
-          server-dir: omegafox.me/assets/
+          server-dir: assets.omegafox.me/
