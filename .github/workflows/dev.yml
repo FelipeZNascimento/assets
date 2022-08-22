@@ -1,4 +1,4 @@
-name: 🔨 Build & 🧪 Test
+name: 📂 Deploy assets
 on:
   pull_request:
     branches: [master]
@@ -20,4 +20,4 @@ jobs:
           username: ${{ secrets.username }}
           password: ${{ secrets.password }}
           local-dir: ./
-          server-dir: omegafox.me/assets/
+          server-dir: assets.omegafox.me/
