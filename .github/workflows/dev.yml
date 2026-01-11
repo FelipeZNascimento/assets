@@ -21,5 +21,5 @@ jobs:
           password: ${{secrets.password}}
           port: 22
           uploads: |
-            ./dist/ => ./
+            ./ => ./
 
